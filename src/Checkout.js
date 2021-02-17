@@ -18,14 +18,7 @@ function Checkout() {
                     className="checkout_title">
                         Your shopping basket
                     </h2>
-                
-                <CheckoutProduct
-                id = "23214324"
-                image = "https://img.chewy.com/is/image/catalog/114156_MAIN._AC_SL1500_V1595942486_.jpg"
-                title = "If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices"
-                price = {223.09}
-                rating = {3}
-                />
+                 
                 {basket.map(item =>(
                         <CheckoutProduct
                         id = {item.id}
