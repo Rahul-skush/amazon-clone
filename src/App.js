@@ -10,6 +10,7 @@ import { useStateValue } from './StateProvider';
 import Payment from './Payment'
 import {loadStripe}  from '@stripe/stripe-js'
 import {Elements} from '@stripe/react-stripe-js'
+import Orders from './Orders'
 const promise = loadStripe('pk_test_51ILw4XFJlu55LaubJ2pv480qfnc877rOv9Tk9vSCGEcRwlxGJ0B2jFRZX0l7r8TtyUCj77UFwZ1DJfokZ2EHpSKc00Y17tAGKn');
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -36,6 +37,9 @@ function App() {
      <Switch>
        <Route path = "/login">
          <Login/>
+       </Route>
+       <Route path = "/orders">
+         <Orders/>
        </Route>
      <Route path="/checkout">
      <Checkout/>
