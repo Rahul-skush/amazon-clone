@@ -9,7 +9,8 @@ const stripe = require("stripe")('sk_test_51ILw4XFJlu55LaubhvfhDi1NM89zRuILW7wim
 const app = express();
 
 // - Middleware configuration
-app.use(cors({origin: true}));
+
+app.use(cors());
 app.use(express.json());
 
 // - API routes
@@ -28,6 +29,7 @@ app.post('/payment/create', async(request, response) => {
     response.status(201).send({
         clientSecret : paymentIntent.client_secret,
     });
+    
 });
 
 // - listen command
