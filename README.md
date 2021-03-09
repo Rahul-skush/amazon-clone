@@ -1,3 +1,16 @@
+# Description
+
+This is web application, which is clone of amazon. It consists of feature.
+
+ ## 1. login/logout
+ ## 2. add items into your cart
+ ## 3. checkout your items
+ ## 4. make payments
+
+## hosting
+
+Website is successfully hosted in firebase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
