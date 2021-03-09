@@ -2,10 +2,10 @@
 
 This is web application, which is clone of amazon. It consists of feature.
 
- ## 1. login/logout
- ## 2. add items into your cart
- ## 3. checkout your items
- ## 4. make payments
+ ### 1. login/logout
+ ### 2. add items into your cart
+ ### 3. checkout your items
+ ### 4. make payments
 
 ## hosting
 
